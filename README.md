@@ -1,7 +1,5 @@
-This Go-based client-server application facilitates web crawling. The server listens on port 8080 for connections, handles URL requests by extracting hyperlinks from the provided web pages, and sends these links back to the client. The client connects to the server, submits a URL, and prints the list of hyperlinks received in response. This setup demonstrates basic network communication, HTTP request handling, and HTML parsing using Go.
+Develop a client-server application using Go (Golang) designed for web crawling. In this system, the server operates on port 8080, handling incoming TCP connections from clients. Upon receiving a URL from a client, the server retrieves the web page, parses the HTML content, extracts all hyperlinks, and sends this list of links back to the client.
 
+The client-side application connects to the server, sends a specified URL, and then processes and displays the hyperlinks received in response. This setup showcases core aspects of network communication, including establishing TCP connections, transmitting data, and handling requests. It also involves HTTP request handling for fetching web pages and HTML parsing for extracting links, leveraging Go’s built-in libraries to achieve efficient and effective web crawling.
 
-
-
-
-
+This Go-based client-server architecture illustrates practical applications of Go in network programming, HTTP operations, and text processing, providing a foundation for more advanced web crawling and data extraction projects.
